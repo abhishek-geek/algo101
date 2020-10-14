@@ -1,3 +1,6 @@
+#bubble_sort function takes a list and perform opertion to sort the list
+#time complexity is n^2
+
 def bubble_sort(s_list):
     for i in range(len(s_list) - 1, 0, -1):
         no_swap = True
